@@ -3,6 +3,7 @@
 OS=$1
 ESY_LIBJPEG_TURBO_PREFIX=$2
 
+echo $PATH
 echo $(which python)
 echo $(python -V)
 if [[ "$(python -V 2>&1)" =~ "Python 2" ]]
